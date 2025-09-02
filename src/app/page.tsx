@@ -7,8 +7,8 @@ import Hero from "@/components/hero";
 export default function Home() {
   return (
       <div className="md:px-50">
+        {/* <DotPattern className=" md:px-50"></DotPattern> */}
         <Navbar ></Navbar>
-        <DotPattern className=" md:px-50"></DotPattern>
         <Hero></Hero>
       </div>
   );
