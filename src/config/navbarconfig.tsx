@@ -13,11 +13,11 @@ export const navbarConfig = {
   navItems: [
     {
       label: 'Projects',
-      href: '/Projects',
+      href: '#projects',
     },
     {
-      label: 'About-me',
-      href: '/about-me',
+      label: 'About Me',
+      href: '#about-me',
     },
     {
       label: 'Contact Me',

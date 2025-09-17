@@ -30,7 +30,8 @@ export default function Navbar() {
           {navbarConfig.navItems.map((item) => (
             <NavigationMenuItem key={item.href}>
               <NavigationMenuLink asChild>
-                <Link href={item.href}>{item.label}</Link>
+              
+                <Link href={item.href} scroll={true}>{item.label}</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
           ))}
@@ -38,7 +39,7 @@ export default function Navbar() {
       </NavigationMenu>
 
      
-      <div className="w-[70%] flex justify-end items-center mx-2 my-2">
+      <div className="w-[10%] flex justify-end items-center mx-2 my-2">
         {mounted && (
           <Button
             size="icon"

@@ -9,7 +9,7 @@ export const Aboutme=()=> {
     <div>
       <GlowLine></GlowLine>
       <div className='w-full h-full ml-7'>
-        <div className='sm:text-lg font-medium pb-4'>
+        <div className='sm:text-lg font-medium pb-4 ' >
          About Me
         </div>
           <div className='mt-8 flex flex-col gap-4 md:flex-row w-[80%]'>
