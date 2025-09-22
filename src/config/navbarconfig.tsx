@@ -1,7 +1,10 @@
+
 export interface NavItem {
   label: string;
   href: string;
+  clasName?:string
 }
+
 
 export const navbarConfig = {
   logo: {
@@ -12,12 +15,17 @@ export const navbarConfig = {
   },
   navItems: [
     {
+      label:'Manishhh',
+      href:"hero",
+      clasName:"font-nothing"
+    },
+    {
       label: 'Projects',
-      href: '#projects',
+      href: 'projects',
     },
     {
       label: 'About Me',
-      href: '#about-me',
+      href: 'about-me',
     },
     {
       label: 'Contact Me',

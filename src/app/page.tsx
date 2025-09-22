@@ -13,7 +13,8 @@ export default function Home() {
       <GridPattern className="absolute inset-0 h-full w-full -z-10 [mask-image:radial-gradient(circle,white,transparent)] [mask-repeat:no-repeat] [mask-position:center] [mask-size:100%]  "  strokeDasharray="0"/>
       <div className=" relative z-10 w-full max-w-5xl md:ml-0 lg:mx-auto transition-all duration-500 ease-in-out ">
         <Navbar />
-        <Hero />
+        <section id="hero"className="scroll-mt-20"><Hero /></section>
+        
          <section id="projects" className="scroll-mt-20">
     <Projects />
   </section>
