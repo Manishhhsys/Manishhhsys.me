@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import { Fjord_One, Geist, Geist_Mono } from "next/font/google";
+import { Fjord_One} from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const fjord=Fjord_One({
    weight: "400", 

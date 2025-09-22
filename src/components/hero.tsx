@@ -2,7 +2,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link"
 import React from "react"
-import { LucideDownload, LucideSend, LucideX } from "lucide-react"
+import { LucideDownload, LucideSend } from "lucide-react"
 import { Button } from "./ui/button"
 import { GlowLine } from "./ui/glow-line"
 import { FindMe } from "./FindMe"
