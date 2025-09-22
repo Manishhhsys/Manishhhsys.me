@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Fjord_One} from "next/font/google";
+import { Fjord_One } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { Toaster } from "sonner";
 
 
 
-const fjord=Fjord_One({
-   weight: "400", 
+const fjord = Fjord_One({
+  weight: "400",
   subsets: ["latin"],
   style: "normal",
 })
@@ -26,13 +27,15 @@ export default function RootLayout({
         className={`${fjord.className} antialiased `}
       >
         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-        {children}
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        <Toaster />
         </ThemeProvider>
+        
       </body>
     </html>
   );
